@@ -38,6 +38,6 @@ push_git_tags
 
 pod_lib_lint(allow_warnings: true,use_libraries:true,sources: ['https://github.com/CocoaPods/Specs.git'])
 
-pod_push(path: "#{targetName}.podspec",allow_warnings: true,use_libraries:true)
+pod_push(path: "#{targetName}.podspec",allow_warnings: true,use_libraries:true,verbose:true)
 
 end
