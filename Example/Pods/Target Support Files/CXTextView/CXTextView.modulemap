@@ -1,0 +1,6 @@
+framework module CXTextView {
+  umbrella header "CXTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
