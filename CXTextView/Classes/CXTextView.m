@@ -88,6 +88,7 @@
     self.v_margin = 8;
     self.initiLine = 1;
     self.maxLine = CGFLOAT_MAX;
+    self.maxLength = CGFLOAT_MAX;
     self.font = [UIFont systemFontOfSize:16];
     [self addSubview:self.textView];
 }

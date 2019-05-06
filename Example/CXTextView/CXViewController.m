@@ -7,6 +7,8 @@
 //
 
 #import "CXViewController.h"
+#import "CXTextView.h"
+#import "UIView+CXPostion.h"
 
 @interface CXViewController ()
 
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    CXTextView *textView = [[CXTextView alloc] initWithFrame:CGRectMake(0, 100, self.view.width - 100, 0)];
+    textView.initiLine = 3;
+    textView.maxLine = 4;
+    textView.v_margin = 2;
+    textView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:textView];
 }
 
 - (void)didReceiveMemoryWarning
