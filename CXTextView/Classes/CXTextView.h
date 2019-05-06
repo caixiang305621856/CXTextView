@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CXCustomTextView;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CXTextView : UIView
 
+/**
+ 真实的textView
+ */
+@property(nonatomic,strong,readonly)CXCustomTextView *textView;
 /**
  竖直方向上下间距 默认为8
  */

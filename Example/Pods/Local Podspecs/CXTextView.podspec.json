@@ -1,6 +1,6 @@
 {
   "name": "CXTextView",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "CXTextView",
   "description": "自定义UITextView 解决换行文字被截断的效果，仿很多评论框效果",
   "homepage": "https://github.com/caixiang305621856/CXTextView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/caixiang305621856/CXTextView.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

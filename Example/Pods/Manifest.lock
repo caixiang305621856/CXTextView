@@ -1,5 +1,5 @@
 PODS:
-  - CXTextView (0.1.1)
+  - CXTextView (0.1.2)
 
 DEPENDENCIES:
   - CXTextView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXTextView: 3db1e20a84e2eefc8e27458a4b426a31d177c864
+  CXTextView: 7eddcb3624fa4df4f17839f15098dfe2d57dc7d5
 
 PODFILE CHECKSUM: 717ef04b2d23c3cbf3605472b42f117a7426f118
 
