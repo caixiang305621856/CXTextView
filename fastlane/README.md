@@ -15,11 +15,11 @@ Install _fastlane_ using
 or alternatively using `brew cask install fastlane`
 
 # Available Actions
-### OpenLib
+### CXLib
 ```
-fastlane OpenLib
+fastlane CXLib
 ```
-OpenLib 针对私有库快速升级维护
+CXLib 针对私有库快速升级维护
 
 ----
 
