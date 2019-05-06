@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CXTextView_Example' do
+  pod 'CXTextView', :path => '../'
+
+  target 'CXTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
