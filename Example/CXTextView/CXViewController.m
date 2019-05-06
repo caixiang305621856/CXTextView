@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     CXTextView *textView = [[CXTextView alloc] initWithFrame:CGRectMake(0, 100, self.view.width - 100, 0)];
-    textView.initiLine = 3;
+    textView.initiLine = 2;
     textView.maxLine = 4;
     textView.v_margin = 2;
     textView.backgroundColor = [UIColor redColor];
