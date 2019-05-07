@@ -12,6 +12,7 @@
 
 #import "CXCustomTextView.h"
 #import "CXTextView.h"
+#import "CXTextViewHelper.h"
 #import "UIView+CXPostion.h"
 
 FOUNDATION_EXPORT double CXTextViewVersionNumber;

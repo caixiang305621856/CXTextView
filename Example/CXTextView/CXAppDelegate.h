@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (CXAppDelegate *)shareAppDelegate;
+
+- (UIWindow *)currentWindow;
+
 @end
