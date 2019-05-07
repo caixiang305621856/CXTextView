@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CXJianShuCommentBottomView">
+            <connections>
+                <outlet property="senderBtn" destination="eUo-hG-IVb" id="edb-OG-QYL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUo-hG-IVb">
+                    <rect key="frame" x="13" y="10" width="349" height="30"/>
+                    <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="s9y-lT-mbo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="写下你的评论" image="icon_comment_add_new">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="icon_comment_add_new"/>
+                    <state key="highlighted" image="icon_comment_add_new"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="senderClick:" destination="-1" eventType="touchUpInside" id="gCC-CW-PhG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHT-Dn-Hkb">
+                    <rect key="frame" x="20" y="48" width="76.5" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="y4A-gi-1Qz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="15"/>
+                    <state key="normal" title="评论" image="icon_comment_reply_small">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4V-Ll-9hc">
+                    <rect key="frame" x="192.5" y="48" width="76.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="15"/>
+                    <state key="normal" title="踩" image="icon_comment_praise_small">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xz-26-BRY">
+                    <rect key="frame" x="279" y="48" width="76" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="15"/>
+                    <state key="normal" title="分享" image="icon_comment_share">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4G-ui-6iI">
+                    <rect key="frame" x="106.5" y="48" width="76" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <inset key="titleEdgeInsets" minX="-20" minY="20" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="15"/>
+                    <state key="normal" title="赞" image="icon_comment_praise_small">
+                        <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2Xz-26-BRY" secondAttribute="trailing" constant="20" id="0zz-j5-SuB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eUo-hG-IVb" secondAttribute="trailing" constant="13" id="5fJ-wu-9eo"/>
+                <constraint firstItem="v4G-ui-6iI" firstAttribute="height" secondItem="pHT-Dn-Hkb" secondAttribute="height" id="A6P-pe-3d1"/>
+                <constraint firstItem="j4V-Ll-9hc" firstAttribute="leading" secondItem="v4G-ui-6iI" secondAttribute="trailing" constant="10" id="FS4-Ks-DIR"/>
+                <constraint firstItem="v4G-ui-6iI" firstAttribute="leading" secondItem="pHT-Dn-Hkb" secondAttribute="trailing" constant="10" id="FxU-aj-kn4"/>
+                <constraint firstItem="eUo-hG-IVb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="13" id="GzS-B3-foj"/>
+                <constraint firstItem="eUo-hG-IVb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="HM5-wW-xU6"/>
+                <constraint firstItem="2Xz-26-BRY" firstAttribute="height" secondItem="pHT-Dn-Hkb" secondAttribute="height" id="Nth-gN-duA"/>
+                <constraint firstItem="v4G-ui-6iI" firstAttribute="width" secondItem="pHT-Dn-Hkb" secondAttribute="width" id="TQ3-gZ-aLm"/>
+                <constraint firstItem="2Xz-26-BRY" firstAttribute="top" secondItem="pHT-Dn-Hkb" secondAttribute="top" id="TVx-gI-XFY"/>
+                <constraint firstItem="pHT-Dn-Hkb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="VLe-Xu-yuC"/>
+                <constraint firstItem="j4V-Ll-9hc" firstAttribute="top" secondItem="2Xz-26-BRY" secondAttribute="top" id="WfZ-6K-xGJ"/>
+                <constraint firstItem="2Xz-26-BRY" firstAttribute="width" secondItem="pHT-Dn-Hkb" secondAttribute="width" id="gc9-Pk-rXE"/>
+                <constraint firstItem="j4V-Ll-9hc" firstAttribute="width" secondItem="2Xz-26-BRY" secondAttribute="width" id="nDF-pJ-2cr"/>
+                <constraint firstItem="j4V-Ll-9hc" firstAttribute="height" secondItem="2Xz-26-BRY" secondAttribute="height" id="uVE-VV-0lW"/>
+                <constraint firstItem="2Xz-26-BRY" firstAttribute="leading" secondItem="j4V-Ll-9hc" secondAttribute="trailing" constant="10" id="uio-Kl-GJb"/>
+                <constraint firstItem="v4G-ui-6iI" firstAttribute="top" secondItem="pHT-Dn-Hkb" secondAttribute="top" id="wrM-2g-i9V"/>
+                <constraint firstItem="pHT-Dn-Hkb" firstAttribute="top" secondItem="eUo-hG-IVb" secondAttribute="bottom" constant="8" id="xvn-bs-pOF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="132" y="-106.14692653673164"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_comment_add_new" width="12" height="10"/>
+        <image name="icon_comment_praise_small" width="20" height="20"/>
+        <image name="icon_comment_reply_small" width="20" height="20"/>
+        <image name="icon_comment_share" width="20" height="20"/>
+    </resources>
+</document>

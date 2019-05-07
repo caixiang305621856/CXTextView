@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3FA38825C2FED6F80CFED8A7 /* Pods_CXTextView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EF50130A5A740CA9895C10 /* Pods_CXTextView_Tests.framework */; };
+		5A19145922816F0600E20618 /* UIView+TSXibOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A19145822816F0600E20618 /* UIView+TSXibOwner.m */; };
+		5A19146A2281A84100E20618 /* CXAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A19145E2281A84000E20618 /* CXAnimationCell.m */; };
+		5A19146B2281A84100E20618 /* CXCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914602281A84000E20618 /* CXCommentViewController.m */; };
+		5A19146C2281A84100E20618 /* CXJianShuCommentBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1914652281A84100E20618 /* CXJianShuCommentBottomView.xib */; };
+		5A19146D2281A84100E20618 /* CXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914672281A84100E20618 /* CXInputView.m */; };
+		5A19146E2281A84100E20618 /* CXJianShuCommentBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914682281A84100E20618 /* CXJianShuCommentBottomView.m */; };
+		5A19146F2281A84100E20618 /* CXToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914692281A84100E20618 /* CXToolBarView.m */; };
+		5A1914722281A8C100E20618 /* CXNormalInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914712281A8C100E20618 /* CXNormalInputView.m */; };
 		5A2E1407228077DF00062FF9 /* CXCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E1401228077DF00062FF9 /* CXCustomTextView.m */; };
 		5A2E1408228077DF00062FF9 /* CXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E1404228077DF00062FF9 /* CXTextView.m */; };
 		5A2E1409228077DF00062FF9 /* UIView+CXPostion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E1406228077DF00062FF9 /* UIView+CXPostion.m */; };
@@ -43,6 +51,22 @@
 		0E87445CBDF48F96DC33A16B /* CXTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXTextView.podspec; path = ../CXTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2F9C903450D92FA1CF057C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3ED9E0D5D2E6A359AED645FF /* Pods-CXTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXTextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXTextView_Example/Pods-CXTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A19145722816F0600E20618 /* UIView+TSXibOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TSXibOwner.h"; sourceTree = "<group>"; };
+		5A19145822816F0600E20618 /* UIView+TSXibOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TSXibOwner.m"; sourceTree = "<group>"; };
+		5A19145B2281A76200E20618 /* CXTextViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXTextViewHelper.h; path = ../../CXTextView/Classes/CXTextViewHelper.h; sourceTree = "<group>"; };
+		5A19145D2281A84000E20618 /* CXAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAnimationCell.h; sourceTree = "<group>"; };
+		5A19145E2281A84000E20618 /* CXAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAnimationCell.m; sourceTree = "<group>"; };
+		5A1914602281A84000E20618 /* CXCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCommentViewController.m; sourceTree = "<group>"; };
+		5A1914612281A84000E20618 /* CXCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCommentViewController.h; sourceTree = "<group>"; };
+		5A1914632281A84100E20618 /* CXJianShuCommentBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXJianShuCommentBottomView.h; sourceTree = "<group>"; };
+		5A1914642281A84100E20618 /* CXInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXInputView.h; sourceTree = "<group>"; };
+		5A1914652281A84100E20618 /* CXJianShuCommentBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXJianShuCommentBottomView.xib; sourceTree = "<group>"; };
+		5A1914662281A84100E20618 /* CXToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXToolBarView.h; sourceTree = "<group>"; };
+		5A1914672281A84100E20618 /* CXInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXInputView.m; sourceTree = "<group>"; };
+		5A1914682281A84100E20618 /* CXJianShuCommentBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXJianShuCommentBottomView.m; sourceTree = "<group>"; };
+		5A1914692281A84100E20618 /* CXToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXToolBarView.m; sourceTree = "<group>"; };
+		5A1914702281A8C100E20618 /* CXNormalInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXNormalInputView.h; sourceTree = "<group>"; };
+		5A1914712281A8C100E20618 /* CXNormalInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXNormalInputView.m; sourceTree = "<group>"; };
 		5A2E1401228077DF00062FF9 /* CXCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXCustomTextView.m; path = ../../CXTextView/Classes/CXCustomTextView.m; sourceTree = "<group>"; };
 		5A2E1402228077DF00062FF9 /* CXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXTextView.h; path = ../../CXTextView/Classes/CXTextView.h; sourceTree = "<group>"; };
 		5A2E1403228077DF00062FF9 /* CXCustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXCustomTextView.h; path = ../../CXTextView/Classes/CXCustomTextView.h; sourceTree = "<group>"; };
@@ -104,9 +128,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A19145C2281A84000E20618 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5A19145D2281A84000E20618 /* CXAnimationCell.h */,
+				5A19145E2281A84000E20618 /* CXAnimationCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5A19145F2281A84000E20618 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A1914612281A84000E20618 /* CXCommentViewController.h */,
+				5A1914602281A84000E20618 /* CXCommentViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5A1914622281A84100E20618 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A1914642281A84100E20618 /* CXInputView.h */,
+				5A1914672281A84100E20618 /* CXInputView.m */,
+				5A1914632281A84100E20618 /* CXJianShuCommentBottomView.h */,
+				5A1914682281A84100E20618 /* CXJianShuCommentBottomView.m */,
+				5A1914652281A84100E20618 /* CXJianShuCommentBottomView.xib */,
+				5A1914702281A8C100E20618 /* CXNormalInputView.h */,
+				5A1914712281A8C100E20618 /* CXNormalInputView.m */,
+				5A1914662281A84100E20618 /* CXToolBarView.h */,
+				5A1914692281A84100E20618 /* CXToolBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5A2E1400228077C900062FF9 /* CXTextView */ = {
 			isa = PBXGroup;
 			children = (
+				5A19145B2281A76200E20618 /* CXTextViewHelper.h */,
 				5A2E1403228077DF00062FF9 /* CXCustomTextView.h */,
 				5A2E1401228077DF00062FF9 /* CXCustomTextView.m */,
 				5A2E1402228077DF00062FF9 /* CXTextView.h */,
@@ -154,7 +213,12 @@
 		6003F593195388D20070C39A /* Example for CXTextView */ = {
 			isa = PBXGroup;
 			children = (
+				5A19145C2281A84000E20618 /* Cell */,
+				5A19145F2281A84000E20618 /* ViewControllers */,
+				5A1914622281A84100E20618 /* Views */,
 				5A2E1400228077C900062FF9 /* CXTextView */,
+				5A19145722816F0600E20618 /* UIView+TSXibOwner.h */,
+				5A19145822816F0600E20618 /* UIView+TSXibOwner.m */,
 				6003F59C195388D20070C39A /* CXAppDelegate.h */,
 				6003F59D195388D20070C39A /* CXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -270,6 +334,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "616704162@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 34Q3DYW7ER;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -300,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				5A19146C2281A84100E20618 /* CXJianShuCommentBottomView.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -392,10 +460,17 @@
 			files = (
 				6003F59E195388D20070C39A /* CXAppDelegate.m in Sources */,
 				5A2E1408228077DF00062FF9 /* CXTextView.m in Sources */,
+				5A19146B2281A84100E20618 /* CXCommentViewController.m in Sources */,
+				5A1914722281A8C100E20618 /* CXNormalInputView.m in Sources */,
 				5A2E1409228077DF00062FF9 /* UIView+CXPostion.m in Sources */,
+				5A19146D2281A84100E20618 /* CXInputView.m in Sources */,
 				6003F5A7195388D20070C39A /* CXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				5A2E1407228077DF00062FF9 /* CXCustomTextView.m in Sources */,
+				5A19145922816F0600E20618 /* UIView+TSXibOwner.m in Sources */,
+				5A19146E2281A84100E20618 /* CXJianShuCommentBottomView.m in Sources */,
+				5A19146A2281A84100E20618 /* CXAnimationCell.m in Sources */,
+				5A19146F2281A84100E20618 /* CXToolBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +598,7 @@
 			baseConfigurationReference = 3ED9E0D5D2E6A359AED645FF /* Pods-CXTextView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34Q3DYW7ER;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXTextView/CXTextView-Prefix.pch";
 				INFOPLIST_FILE = "CXTextView/CXTextView-Info.plist";
@@ -538,6 +614,7 @@
 			baseConfigurationReference = A547CBC67AEA91CE3872F295 /* Pods-CXTextView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34Q3DYW7ER;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXTextView/CXTextView-Prefix.pch";
 				INFOPLIST_FILE = "CXTextView/CXTextView-Info.plist";

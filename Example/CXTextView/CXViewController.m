@@ -7,31 +7,33 @@
 //
 
 #import "CXViewController.h"
-#import "CXTextView.h"
+#import "CXCommentViewController.h"
 #import "UIView+CXPostion.h"
-
+#import "CXNormalInputView.h"
 @interface CXViewController ()
 
 @end
 
 @implementation CXViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    CXTextView *textView = [[CXTextView alloc] initWithFrame:CGRectMake(0, 100, self.view.width - 100, 0)];
-    textView.initiLine = 2;
-    textView.maxLine = 4;
-    textView.v_margin = 2;
-    textView.backgroundColor = [UIColor redColor];
+    self.title = @"CXTextView";
+    CXNormalInputView *textView = [[CXNormalInputView alloc] initWithFrame:CGRectMake(0, self.view.height - 40, self.view.width , 40)];
     [self.view addSubview:textView];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)jianshuClick:(id)sender {
+    CXCommentViewController *  commentViewController = [[CXCommentViewController alloc] init];
+    [self.navigationController pushViewController:commentViewController animated:YES];
+}
+
+- (IBAction)zhihuClick:(id)sender {
 }
 
 @end

@@ -9,6 +9,23 @@
 #import "CXAppDelegate.h"
 
 @implementation CXAppDelegate
++ (CXAppDelegate *)shareAppDelegate {
+    return (CXAppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
+- (UIWindow *)currentWindow {
+    UIWindow * mainWindow = [UIApplication sharedApplication].keyWindow;
+    if (mainWindow.windowLevel != UIWindowLevelNormal){
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows){
+            if (tmpWin.windowLevel == UIWindowLevelNormal){
+                mainWindow = tmpWin;
+                break;
+            }
+        }
+    }
+    return mainWindow;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
