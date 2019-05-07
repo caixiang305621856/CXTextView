@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![](https://upload-images.jianshu.io/upload_images/1767433-7e4921c0301e5480.gif?imageMogr2/auto-orient/strip)
+
 ## Requirements
 
 ## Installation
