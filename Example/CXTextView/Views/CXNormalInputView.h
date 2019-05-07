@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CXNormalInputView : UIView
 
+@property (copy, nonatomic) void(^senderClickHandler)(CXNormalInputView *bar);
+
 @end
 
 NS_ASSUME_NONNULL_END

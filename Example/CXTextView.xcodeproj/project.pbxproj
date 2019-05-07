@@ -335,7 +335,7 @@
 				ORGANIZATIONNAME = "616704162@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 34Q3DYW7ER;
+						DevelopmentTeam = SAD9GVSU92;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -598,7 +598,7 @@
 			baseConfigurationReference = 3ED9E0D5D2E6A359AED645FF /* Pods-CXTextView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34Q3DYW7ER;
+				DEVELOPMENT_TEAM = SAD9GVSU92;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXTextView/CXTextView-Prefix.pch";
 				INFOPLIST_FILE = "CXTextView/CXTextView-Info.plist";
@@ -614,7 +614,7 @@
 			baseConfigurationReference = A547CBC67AEA91CE3872F295 /* Pods-CXTextView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34Q3DYW7ER;
+				DEVELOPMENT_TEAM = SAD9GVSU92;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CXTextView/CXTextView-Prefix.pch";
 				INFOPLIST_FILE = "CXTextView/CXTextView-Info.plist";

@@ -8,8 +8,6 @@
 
 #import "CXViewController.h"
 #import "CXCommentViewController.h"
-#import "UIView+CXPostion.h"
-#import "CXNormalInputView.h"
 @interface CXViewController ()
 
 @end
@@ -19,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"CXTextView";
-    CXNormalInputView *textView = [[CXNormalInputView alloc] initWithFrame:CGRectMake(0, self.view.height - 40, self.view.width , 40)];
-    [self.view addSubview:textView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,12 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)jianshuClick:(id)sender {
+- (IBAction)jianshuClick:(UIButton *)sender {
     CXCommentViewController *  commentViewController = [[CXCommentViewController alloc] init];
+    commentViewController.title = sender.titleLabel.text;
+    commentViewController.commentViewType = CXCommentViewTypeJianShu;
     [self.navigationController pushViewController:commentViewController animated:YES];
 }
 
-- (IBAction)zhihuClick:(id)sender {
+- (IBAction)zhihuClick:(UIButton *)sender {
+    CXCommentViewController *  commentViewController = [[CXCommentViewController alloc] init];
+    commentViewController.title = sender.titleLabel.text;
+    commentViewController.commentViewType = CXCommentViewTypeNormal;
+    [self.navigationController pushViewController:commentViewController animated:YES];
 }
 
 @end

@@ -52,18 +52,23 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     [UIView animateWithDuration:0.25 animations:^{
-        self.textView.bottom = self.height - self->_keybordHeight;
-        self.textView.height = self->_customTextViewHeight;
-        self.sendBtn.height =  self.textView.height;
-        self.sendBtn.bottom = self.textView.bottom;
+        self.top = [UIScreen mainScreen].bounds.size.height - ((self->_keybordHeight > 0)?self->_keybordHeight:cx_viewSafeArea(self.superview).bottom) - self->_customTextViewHeight;
+        self.sendBtn.top = self.textView.top;
+        self.sendBtn.height =  self->_customTextViewHeight;
     }];
 }
 
+#pragma mrak - private
 - (void)addNotification{
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
 }
 
+- (void)sendBtnClicked {
+    !self.senderClickHandler?:self.senderClickHandler(self);
+}
+
+#pragma mark - Notification
 - (void)keyboardWillShow:(NSNotification*)notification {
     NSDictionary *userInfo = [notification userInfo];
     NSValue* aValue = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];
@@ -107,8 +112,8 @@
         _textView.h_margin = 15;
         _textView.maxLength = 500;
         _textView.placeholder = @"说点什么吧";
-        _textView.backgroundColor = CXRGB(234, 111, 91);
-        _textView.textView.tintColor = CXRGB(234, 111, 91);
+        _textView.backgroundColor = [UIColor whiteColor];
+        _textView.textView.tintColor = CXRGB(0, 132, 255);
         _customTextViewHeight = ceil(_textView.font.lineHeight * _textView.initiLine) + 2*_textView.v_margin;
         //高度改变
         __weak __typeof(self)weakSelf = self;
@@ -143,12 +148,16 @@
     if (!_sendBtn) {
         _sendBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_sendBtn.titleLabel setFont: [UIFont systemFontOfSize:16]];
-        _sendBtn.frame = CGRectMake(self.width - 84, 0, 84, 48);
-        _sendBtn.backgroundColor = CXRGB(234, 111, 91);
-        [_sendBtn addTarget:self action:@selector(sendBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+        _sendBtn.frame = CGRectMake(self.width - 84, 0, 84, 40);
+        _sendBtn.backgroundColor = CXRGB(0, 132, 255);
+        [_sendBtn addTarget:self action:@selector(sendBtnClicked) forControlEvents:UIControlEventTouchUpInside];
         [_sendBtn setTitle:@"发送" forState:UIControlStateNormal];
+        _sendBtn.userInteractionEnabled=NO;
+        _sendBtn.alpha=0.6;
     }
     return _sendBtn;
 }
+
+
 
 @end
