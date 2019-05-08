@@ -65,7 +65,7 @@ pod 'CXTextView'
 
 ## Author
 
-616704162@qq.com, caix@mail.open.cn
+616704162@qq.com 小作坊开发者
 
 ## License
 
