@@ -1,5 +1,5 @@
 //
-//  CXToolBarView.h
+//  CXJianShuToolBarView.h
 //  CXTextView_Example
 //
 //  Created by caixiang on 2019/5/7.
@@ -10,11 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CXToolBarView : UIView
+@interface CXJianShuToolBarView : UIView
 
 @property (assign, nonatomic) BOOL canClick;
 
-@property (copy, nonatomic) void(^senderClickHandler)(CXToolBarView *bar);
+@property (copy, nonatomic) void(^senderClickHandler)(CXJianShuToolBarView *bar);
 
 @end
 

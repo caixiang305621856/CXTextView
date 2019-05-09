@@ -1,32 +1,32 @@
 //
-//  CXInputView.m
+//  CXJianShuInputView.m
 //  CXTextView_Example
 //
 //  Created by caixiang on 2019/5/7.
 //  Copyright © 2019年 616704162@qq.com. All rights reserved.
 //
 
-#import "CXInputView.h"
-#import "CXToolBarView.h"
+#import "CXJianShuInputView.h"
+#import "CXJianShuToolBarView.h"
 #import "CXAppDelegate.h"
 #import "CXTextViewHelper.h"
 
-@interface CXInputView() {
+@interface CXJianShuInputView() {
     CGFloat _keybordHeight;
     CGFloat _customTextViewHeight;
 }
 
 @property (strong, nonatomic) UIView *tapView;
 @property (strong, nonatomic) CXTextView *textView;
-@property (strong, nonatomic) CXToolBarView *toolBarView;
+@property (strong, nonatomic) CXJianShuToolBarView *toolBarView;
 @property (assign, nonatomic) BOOL animation;
 
 @end
 
-@implementation CXInputView
+@implementation CXJianShuInputView
 
 + (instancetype)inputView; {
-    CXInputView *inputView = [[CXInputView alloc] initWithFrame:CGRectMake(0, 0, ([UIScreen mainScreen].bounds).size.width , ([UIScreen mainScreen].bounds).size.height)];
+    CXJianShuInputView *inputView = [[CXJianShuInputView alloc] initWithFrame:CGRectMake(0, 0, ([UIScreen mainScreen].bounds).size.width , ([UIScreen mainScreen].bounds).size.height)];
     return inputView;
 }
 
@@ -180,11 +180,11 @@
     return _textView;
 }
 
-- (CXToolBarView *)toolBarView{
+- (CXJianShuToolBarView *)toolBarView{
     if (!_toolBarView) {
-        _toolBarView = [[CXToolBarView alloc] initWithFrame:CGRectMake(0, 0, self.width, 70)];
+        _toolBarView = [[CXJianShuToolBarView alloc] initWithFrame:CGRectMake(0, 0, self.width, 70)];
         _toolBarView.canClick = NO;
-        _toolBarView.senderClickHandler = ^(CXToolBarView * _Nonnull bar) {
+        _toolBarView.senderClickHandler = ^(CXJianShuToolBarView * _Nonnull bar) {
             NSLog(@"🚀发送🚀");
         };
     }

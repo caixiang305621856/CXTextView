@@ -1,5 +1,5 @@
 //
-//  CXInputView.h
+//  CXJianShuInputView.h
 //  CXTextView_Example
 //
 //  Created by caixiang on 2019/5/7.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CXInputView : UIView
+@interface CXJianShuInputView : UIView
 
 + (instancetype)inputView;
 

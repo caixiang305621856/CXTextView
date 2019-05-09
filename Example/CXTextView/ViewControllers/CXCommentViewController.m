@@ -10,7 +10,7 @@
 #import "CXAnimationCell.h"
 #import "CXTextViewHelper.h"
 #import "CXJianShuCommentBottomView.h"
-#import "CXInputView.h"
+#import "CXJianShuInputView.h"
 #import "CXNormalInputView.h"
 
 @interface CXCommentViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -20,7 +20,7 @@
 @property (nonatomic, strong) UITableView *animationTableView;
 @property (nonatomic, assign) BOOL stopAnimation;
 @property (strong, nonatomic) CXJianShuCommentBottomView *jianShuCommentBottomView;
-@property (strong, nonatomic) CXInputView *inputView;
+@property (strong, nonatomic) CXJianShuInputView *inputView;
 
 @property (strong, nonatomic) CXNormalInputView *normalInputView;
 
@@ -162,7 +162,7 @@ const CGFloat CXJianShuCommentBottomViewHeight = 88.0f;
 
 - (UIView *)inputView{
     if (!_inputView) {
-        _inputView = [CXInputView inputView];
+        _inputView = [CXJianShuInputView inputView];
         __weak __typeof(self)weakSelf = self;
         _inputView.hideWithInputTextHandler = ^(NSString * _Nonnull content) {
             __strong __typeof(weakSelf)sSelf = weakSelf;
