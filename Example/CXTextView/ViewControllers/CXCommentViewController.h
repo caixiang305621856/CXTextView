@@ -14,6 +14,7 @@ typedef NS_OPTIONS(NSUInteger, CXCommentViewType) {
 };
 
 @interface CXCommentViewController : UIViewController
+
 @property (nonatomic, assign) CXCommentViewType commentViewType;
 
 @end

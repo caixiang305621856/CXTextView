@@ -11,7 +11,6 @@
 @interface CXJianShuCommentBottomView : UIView
 
 @property (copy, nonatomic) void(^senderClickHandler)(CXJianShuCommentBottomView *jianShuCommentBottomView);
-
 /**
  输入的文字
  */

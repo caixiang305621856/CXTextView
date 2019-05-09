@@ -12,9 +12,9 @@
 		5A19146A2281A84100E20618 /* CXAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A19145E2281A84000E20618 /* CXAnimationCell.m */; };
 		5A19146B2281A84100E20618 /* CXCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914602281A84000E20618 /* CXCommentViewController.m */; };
 		5A19146C2281A84100E20618 /* CXJianShuCommentBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1914652281A84100E20618 /* CXJianShuCommentBottomView.xib */; };
-		5A19146D2281A84100E20618 /* CXInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914672281A84100E20618 /* CXInputView.m */; };
+		5A19146D2281A84100E20618 /* CXJianShuInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914672281A84100E20618 /* CXJianShuInputView.m */; };
 		5A19146E2281A84100E20618 /* CXJianShuCommentBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914682281A84100E20618 /* CXJianShuCommentBottomView.m */; };
-		5A19146F2281A84100E20618 /* CXToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914692281A84100E20618 /* CXToolBarView.m */; };
+		5A19146F2281A84100E20618 /* CXJianShuToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914692281A84100E20618 /* CXJianShuToolBarView.m */; };
 		5A1914722281A8C100E20618 /* CXNormalInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1914712281A8C100E20618 /* CXNormalInputView.m */; };
 		5A2E1407228077DF00062FF9 /* CXCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E1401228077DF00062FF9 /* CXCustomTextView.m */; };
 		5A2E1408228077DF00062FF9 /* CXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E1404228077DF00062FF9 /* CXTextView.m */; };
@@ -59,12 +59,12 @@
 		5A1914602281A84000E20618 /* CXCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXCommentViewController.m; sourceTree = "<group>"; };
 		5A1914612281A84000E20618 /* CXCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXCommentViewController.h; sourceTree = "<group>"; };
 		5A1914632281A84100E20618 /* CXJianShuCommentBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXJianShuCommentBottomView.h; sourceTree = "<group>"; };
-		5A1914642281A84100E20618 /* CXInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXInputView.h; sourceTree = "<group>"; };
+		5A1914642281A84100E20618 /* CXJianShuInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXJianShuInputView.h; sourceTree = "<group>"; };
 		5A1914652281A84100E20618 /* CXJianShuCommentBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXJianShuCommentBottomView.xib; sourceTree = "<group>"; };
-		5A1914662281A84100E20618 /* CXToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXToolBarView.h; sourceTree = "<group>"; };
-		5A1914672281A84100E20618 /* CXInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXInputView.m; sourceTree = "<group>"; };
+		5A1914662281A84100E20618 /* CXJianShuToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXJianShuToolBarView.h; sourceTree = "<group>"; };
+		5A1914672281A84100E20618 /* CXJianShuInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXJianShuInputView.m; sourceTree = "<group>"; };
 		5A1914682281A84100E20618 /* CXJianShuCommentBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXJianShuCommentBottomView.m; sourceTree = "<group>"; };
-		5A1914692281A84100E20618 /* CXToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXToolBarView.m; sourceTree = "<group>"; };
+		5A1914692281A84100E20618 /* CXJianShuToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXJianShuToolBarView.m; sourceTree = "<group>"; };
 		5A1914702281A8C100E20618 /* CXNormalInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXNormalInputView.h; sourceTree = "<group>"; };
 		5A1914712281A8C100E20618 /* CXNormalInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXNormalInputView.m; sourceTree = "<group>"; };
 		5A2E1401228077DF00062FF9 /* CXCustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXCustomTextView.m; path = ../../CXTextView/Classes/CXCustomTextView.m; sourceTree = "<group>"; };
@@ -149,15 +149,15 @@
 		5A1914622281A84100E20618 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5A1914642281A84100E20618 /* CXInputView.h */,
-				5A1914672281A84100E20618 /* CXInputView.m */,
+				5A1914642281A84100E20618 /* CXJianShuInputView.h */,
+				5A1914672281A84100E20618 /* CXJianShuInputView.m */,
 				5A1914632281A84100E20618 /* CXJianShuCommentBottomView.h */,
 				5A1914682281A84100E20618 /* CXJianShuCommentBottomView.m */,
 				5A1914652281A84100E20618 /* CXJianShuCommentBottomView.xib */,
 				5A1914702281A8C100E20618 /* CXNormalInputView.h */,
 				5A1914712281A8C100E20618 /* CXNormalInputView.m */,
-				5A1914662281A84100E20618 /* CXToolBarView.h */,
-				5A1914692281A84100E20618 /* CXToolBarView.m */,
+				5A1914662281A84100E20618 /* CXJianShuToolBarView.h */,
+				5A1914692281A84100E20618 /* CXJianShuToolBarView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -463,14 +463,14 @@
 				5A19146B2281A84100E20618 /* CXCommentViewController.m in Sources */,
 				5A1914722281A8C100E20618 /* CXNormalInputView.m in Sources */,
 				5A2E1409228077DF00062FF9 /* UIView+CXPostion.m in Sources */,
-				5A19146D2281A84100E20618 /* CXInputView.m in Sources */,
+				5A19146D2281A84100E20618 /* CXJianShuInputView.m in Sources */,
 				6003F5A7195388D20070C39A /* CXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				5A2E1407228077DF00062FF9 /* CXCustomTextView.m in Sources */,
 				5A19145922816F0600E20618 /* UIView+TSXibOwner.m in Sources */,
 				5A19146E2281A84100E20618 /* CXJianShuCommentBottomView.m in Sources */,
 				5A19146A2281A84100E20618 /* CXAnimationCell.m in Sources */,
-				5A19146F2281A84100E20618 /* CXToolBarView.m in Sources */,
+				5A19146F2281A84100E20618 /* CXJianShuToolBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
