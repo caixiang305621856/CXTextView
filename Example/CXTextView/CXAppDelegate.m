@@ -30,6 +30,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    NSThread
+//    NSRunLoop
+//    NSAutoreleasePool
     return YES;
 }
 
