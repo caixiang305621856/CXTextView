@@ -12,7 +12,7 @@ platform :ios do
 	# 本次更新的内容
 	msgName = options[:msg]
 
-	GitHubLib(tag:tagName,target:targetName,msg:msgName) 
+	cx_gitHubLib(tag:tagName,target:targetName,msg:msgName) 
 	
 	end
 end
