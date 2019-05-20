@@ -12,38 +12,7 @@ platform :ios do
 	# 本次更新的内容
 	msgName = options[:msg]
 
-	# git pull
-	#  git_pull 
-	# 确认是 master 分支
-	#  ensure_git_branch
-
-	cocoapods(
-	clean: true,
-	podfile: "./Example/Podfile"
-	)
-
-	git_add(path: ".")
-
-	git_commit(path: ".", message: "#{msgName}")
-
-	push_to_git_remote
-
-	if git_tag_exists(tag: tagName)
-	    UI.message("发现tag:#{tagName} 之前有tag,删除原来的标签🚀")
-	    remove_tag(tag:tagName)
-	end
-
-	add_git_tag(
-	tag: tagName
-	)
-
-	push_git_tags
-
-	pod_lib_lint(allow_warnings: true,use_libraries:true,sources: ['https://github.com/CocoaPods/Specs.git'])
-
-	pod_push(path: "#{targetName}.podspec",allow_warnings: true,use_libraries:true,verbose:true)
-
+	GitHubLib(tag:tagName,target:targetName,msg:msgName) 
+	
 	end
 end
-
-
