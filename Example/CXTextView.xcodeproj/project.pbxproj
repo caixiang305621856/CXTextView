@@ -390,21 +390,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CXTextView_Example/Pods-CXTextView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CXTextView_Example/Pods-CXTextView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CXTextView/CXTextView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CXTextView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CXTextView_Example/Pods-CXTextView_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXTextView_Example/Pods-CXTextView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62EFC7ED2D6C018FDA304440 /* [CP] Check Pods Manifest.lock */ = {
