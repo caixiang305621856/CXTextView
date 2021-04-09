@@ -5,59 +5,67 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.002453">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.001987">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: import_from_git" time="0.801702">
+      <testcase classname="fastlane.lanes" name="01: import_from_git" time="1.207811">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: Switch to ios cx_gitHubLib lane" time="0.002777">
+      <testcase classname="fastlane.lanes" name="02: Switch to ios cx_gitHubLib lane" time="0.001895">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: cocoapods" time="3.58112">
+      <testcase classname="fastlane.lanes" name="03: cocoapods" time="4.43887">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.025793">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.046448">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.042311">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.081966">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="5.562705">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="5.625748">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.012608">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.028089">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.021583">
+      <testcase classname="fastlane.lanes" name="08: remove_tag" time="5.706596">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="5.617718">
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.043317">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: pod_lib_lint" time="4.277697">
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="5.530019">
         
-          <failure message="/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/fast_file.rb:154:in `method_missing'&#10;../../../../../../var/folders/85/kv2ywtj151l1dyw8tlxk_gmm0000gn/T/fl_clone20190911-68249-v7hfx1/CXActionLanes.git/fastlane/ios_fastfile.rb:65:in `block (2 levels) in parsing_binding'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:204:in `try_switch_to_lane'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:146:in `trigger_action_by_name'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/fast_file.rb:154:in `method_missing'&#10;Fastfile:15:in `block (2 levels) in parsing_binding'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/caixiang/.rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/fastlane-2.123.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1@global/gems/fastlane-2.123.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1/bin/fastlane:23:in `load'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/caixiang/.rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod lib lint --allow-warnings --sources='https://github.com/CocoaPods/Specs.git'' was 1 instead of 0.&#10;&#10; -&gt; CXTextView -&gt; CXTextView (0.1.6)&#10;    - ERROR | [iOS] unknown: Encountered an unknown error (Could not find a `ios` simulator (valid values: ). Ensure that Xcode -&gt; Window -&gt; Devices has at least one `ios` simulator listed or otherwise add one.) during validation.&#10;&#10;[!] CXTextView did not pass validation, due to 1 error.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="23.721011">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: pod_push" time="172.71661">
         
       </testcase>
     
